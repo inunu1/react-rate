@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+
+/* 全体のレイアウト */
+.app-container {
+  display: flex;
+  height: 100vh; /* ビューポート全体の高さ */
+}
+
+/* サイドバー */
+.sidebar {
+  width: 200px;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* メインコンテンツ */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
